@@ -1,0 +1,87 @@
+html {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+#termsAndConditionsDiv {
+  height: 400px;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #dadada;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #a0a0a0;
+}
+
+#agreed_checkbox_confirmation {
+  position: absolute;
+  left: 5px;
+  top: 0PX;
+}
+
+.bg-primary-skywave {
+  background-color: #0160a1;
+}
+
+.sw-logo {
+  width: 100px;
+}
+
+.step-badge {
+  position: absolute;
+  right: 10px;
+  top: 20px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.mouse-pointer {
+  cursor: pointer;
+}
+
+label {
+  margin-bottom: 2px;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+.total-cost {
+  font-size: 22px;
+}
+
+.jump-to-bottom-col {
+  position: absolute;
+  top: 150px;
+}
+
+.complete-sign-up-div {
+  position: absolute;
+  bottom: -18px;
+}
+
+.checkbox-positioning {
+  position: absolute;
+  left: 50px;
+  top: 7px;
+}
+
